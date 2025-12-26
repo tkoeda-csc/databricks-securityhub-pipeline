@@ -1,0 +1,2242 @@
+[
+    {
+        "control_id": "ACM.1",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "ACM.2",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "ACM.3",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "APIGateway.1",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "APIGateway.2",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "APIGateway.3",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "APIGateway.4",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "APIGateway.5",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "APIGateway.8",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "APIGateway.9",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "Account.1",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "Account.2",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "Amplify.1",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "Amplify.2",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "AppConfig.1",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "AppConfig.2",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "AppConfig.3",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "AppConfig.4",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "AppFlow.1",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "AppRunner.1",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "AppRunner.2",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "AppSync.1",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "AppSync.2",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "AppSync.4",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "AppSync.5",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "AppSync.6",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "Athena.2",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "Athena.3",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "Athena.4",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "AutoScaling.1",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "AutoScaling.10",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "AutoScaling.2",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "AutoScaling.3",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "AutoScaling.6",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "AutoScaling.9",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "Autoscaling.5",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "Backup.1",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "Backup.2",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "Backup.3",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "Backup.4",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "Backup.5",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "Batch.1",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "Batch.2",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "Batch.3",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "Batch.4",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "CloudFormation.2",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "CloudFormation.3",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "CloudFront.1",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "CloudFront.10",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "CloudFront.12",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "CloudFront.13",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "CloudFront.14",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "CloudFront.15",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "CloudFront.16",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "CloudFront.3",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "CloudFront.4",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "CloudFront.5",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "CloudFront.6",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "CloudFront.7",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "CloudFront.8",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "CloudFront.9",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "CloudTrail.1",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "CloudTrail.10",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "CloudTrail.2",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "CloudTrail.3",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "CloudTrail.4",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "CloudTrail.5",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "CloudTrail.6",
+        "severity": "CRITICAL"
+    },
+    {
+        "control_id": "CloudTrail.7",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "CloudTrail.9",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "CloudWatch.1",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "CloudWatch.10",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "CloudWatch.11",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "CloudWatch.12",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "CloudWatch.13",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "CloudWatch.14",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "CloudWatch.15",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "CloudWatch.16",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "CloudWatch.17",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "CloudWatch.2",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "CloudWatch.3",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "CloudWatch.4",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "CloudWatch.5",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "CloudWatch.6",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "CloudWatch.7",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "CloudWatch.8",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "CloudWatch.9",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "CodeArtifact.1",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "CodeBuild.1",
+        "severity": "CRITICAL"
+    },
+    {
+        "control_id": "CodeBuild.2",
+        "severity": "CRITICAL"
+    },
+    {
+        "control_id": "CodeBuild.3",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "CodeBuild.4",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "CodeBuild.7",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "CodeGuruProfiler.1",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "CodeGuruReviewer.1",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "Cognito.1",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "Cognito.2",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "Cognito.3",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "Cognito.4",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "Cognito.5",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "Cognito.6",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "Config.1",
+        "severity": "CRITICAL"
+    },
+    {
+        "control_id": "Connect.1",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "Connect.2",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "DMS.1",
+        "severity": "CRITICAL"
+    },
+    {
+        "control_id": "DMS.10",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "DMS.11",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "DMS.12",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "DMS.13",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "DMS.2",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "DMS.3",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "DMS.4",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "DMS.5",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "DMS.6",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "DMS.7",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "DMS.8",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "DMS.9",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "DataFirehose.1",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "DataSync.1",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "DataSync.2",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "Detective.1",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "DocumentDB.1",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "DocumentDB.2",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "DocumentDB.3",
+        "severity": "CRITICAL"
+    },
+    {
+        "control_id": "DocumentDB.4",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "DocumentDB.5",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "DocumentDB.6",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "DynamoDB.1",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "DynamoDB.2",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "DynamoDB.3",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "DynamoDB.4",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "DynamoDB.5",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "DynamoDB.6",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "DynamoDB.7",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "EC2.1",
+        "severity": "CRITICAL"
+    },
+    {
+        "control_id": "EC2.10",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "EC2.12",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "EC2.13",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "EC2.14",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "EC2.15",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "EC2.16",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "EC2.17",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "EC2.170",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "EC2.171",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "EC2.172",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "EC2.173",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "EC2.174",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "EC2.175",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "EC2.176",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "EC2.177",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "EC2.178",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "EC2.179",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "EC2.18",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "EC2.180",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "EC2.181",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "EC2.182",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "EC2.19",
+        "severity": "CRITICAL"
+    },
+    {
+        "control_id": "EC2.2",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "EC2.20",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "EC2.21",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "EC2.22",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "EC2.23",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "EC2.24",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "EC2.25",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "EC2.28",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "EC2.3",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "EC2.33",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "EC2.34",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "EC2.35",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "EC2.36",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "EC2.37",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "EC2.38",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "EC2.39",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "EC2.4",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "EC2.40",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "EC2.41",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "EC2.42",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "EC2.43",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "EC2.44",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "EC2.45",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "EC2.46",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "EC2.47",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "EC2.48",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "EC2.49",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "EC2.50",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "EC2.51",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "EC2.52",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "EC2.53",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "EC2.54",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "EC2.55",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "EC2.56",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "EC2.57",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "EC2.58",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "EC2.6",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "EC2.60",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "EC2.7",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "EC2.8",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "EC2.9",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "ECR.1",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "ECR.2",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "ECR.3",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "ECR.4",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "ECR.5",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "ECS.1",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "ECS.10",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "ECS.12",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "ECS.13",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "ECS.14",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "ECS.15",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "ECS.16",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "ECS.17",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "ECS.18",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "ECS.2",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "ECS.3",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "ECS.4",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "ECS.5",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "ECS.8",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "ECS.9",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "EFS.1",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "EFS.2",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "EFS.3",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "EFS.4",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "EFS.5",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "EFS.6",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "EFS.7",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "EFS.8",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "EKS.1",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "EKS.2",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "EKS.3",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "EKS.6",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "EKS.7",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "EKS.8",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "ELB.1",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "ELB.10",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "ELB.12",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "ELB.13",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "ELB.14",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "ELB.16",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "ELB.17",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "ELB.18",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "ELB.2",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "ELB.3",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "ELB.4",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "ELB.5",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "ELB.6",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "ELB.7",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "ELB.8",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "ELB.9",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "EMR.1",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "EMR.2",
+        "severity": "CRITICAL"
+    },
+    {
+        "control_id": "EMR.3",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "EMR.4",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "ES.1",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "ES.2",
+        "severity": "CRITICAL"
+    },
+    {
+        "control_id": "ES.3",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "ES.4",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "ES.5",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "ES.6",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "ES.7",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "ES.8",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "ES.9",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "ElastiCache.1",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "ElastiCache.2",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "ElastiCache.3",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "ElastiCache.4",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "ElastiCache.5",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "ElastiCache.6",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "ElastiCache.7",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "ElasticBeanstalk.1",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "ElasticBeanstalk.2",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "ElasticBeanstalk.3",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "EventBridge.2",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "EventBridge.3",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "EventBridge.4",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "FSx.1",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "FSx.2",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "FSx.3",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "FSx.4",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "FSx.5",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "FraudDetector.1",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "FraudDetector.2",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "FraudDetector.3",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "FraudDetector.4",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "GlobalAccelerator.1",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "Glue.1",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "Glue.3",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "Glue.4",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "GuardDuty.1",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "GuardDuty.10",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "GuardDuty.11",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "GuardDuty.12",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "GuardDuty.13",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "GuardDuty.2",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "GuardDuty.3",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "GuardDuty.4",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "GuardDuty.5",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "GuardDuty.6",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "GuardDuty.7",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "GuardDuty.8",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "GuardDuty.9",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "IAM.1",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "IAM.10",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "IAM.11",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "IAM.12",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "IAM.13",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "IAM.14",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "IAM.15",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "IAM.16",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "IAM.17",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "IAM.18",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "IAM.19",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "IAM.2",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "IAM.21",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "IAM.22",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "IAM.23",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "IAM.24",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "IAM.25",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "IAM.26",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "IAM.27",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "IAM.28",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "IAM.3",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "IAM.4",
+        "severity": "CRITICAL"
+    },
+    {
+        "control_id": "IAM.5",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "IAM.6",
+        "severity": "CRITICAL"
+    },
+    {
+        "control_id": "IAM.7",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "IAM.8",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "IAM.9",
+        "severity": "CRITICAL"
+    },
+    {
+        "control_id": "IVS.1",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "IVS.2",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "IVS.3",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "Inspector.1",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "Inspector.2",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "Inspector.3",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "Inspector.4",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "IoT.1",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "IoT.2",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "IoT.3",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "IoT.4",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "IoT.5",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "IoT.6",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "IoTEvents.1",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "IoTEvents.2",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "IoTEvents.3",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "IoTSiteWise.1",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "IoTSiteWise.2",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "IoTSiteWise.3",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "IoTSiteWise.4",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "IoTSiteWise.5",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "IoTTwinMaker.1",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "IoTTwinMaker.2",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "IoTTwinMaker.3",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "IoTTwinMaker.4",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "IoTWireless.1",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "IoTWireless.2",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "IoTWireless.3",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "KMS.1",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "KMS.2",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "KMS.3",
+        "severity": "CRITICAL"
+    },
+    {
+        "control_id": "KMS.4",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "KMS.5",
+        "severity": "CRITICAL"
+    },
+    {
+        "control_id": "Keyspaces.1",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "Kinesis.1",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "Kinesis.2",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "Kinesis.3",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "Lambda.1",
+        "severity": "CRITICAL"
+    },
+    {
+        "control_id": "Lambda.2",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "Lambda.3",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "Lambda.5",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "Lambda.6",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "Lambda.7",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "MQ.2",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "MQ.3",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "MQ.4",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "MQ.5",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "MQ.6",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "MSK.1",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "MSK.2",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "MSK.3",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "MSK.4",
+        "severity": "CRITICAL"
+    },
+    {
+        "control_id": "MSK.5",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "MSK.6",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "Macie.1",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "Macie.2",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "Neptune.1",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "Neptune.2",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "Neptune.3",
+        "severity": "CRITICAL"
+    },
+    {
+        "control_id": "Neptune.4",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "Neptune.5",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "Neptune.6",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "Neptune.7",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "Neptune.8",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "Neptune.9",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "NetworkFirewall.1",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "NetworkFirewall.10",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "NetworkFirewall.2",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "NetworkFirewall.3",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "NetworkFirewall.4",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "NetworkFirewall.5",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "NetworkFirewall.6",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "NetworkFirewall.7",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "NetworkFirewall.8",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "NetworkFirewall.9",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "Opensearch.1",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "Opensearch.10",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "Opensearch.11",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "Opensearch.2",
+        "severity": "CRITICAL"
+    },
+    {
+        "control_id": "Opensearch.3",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "Opensearch.4",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "Opensearch.5",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "Opensearch.6",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "Opensearch.7",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "Opensearch.8",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "Opensearch.9",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "PCA.1",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "PCA.2",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "RDS.1",
+        "severity": "CRITICAL"
+    },
+    {
+        "control_id": "RDS.10",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "RDS.11",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "RDS.12",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "RDS.13",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "RDS.14",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "RDS.15",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "RDS.16",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "RDS.17",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "RDS.18",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "RDS.19",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "RDS.2",
+        "severity": "CRITICAL"
+    },
+    {
+        "control_id": "RDS.20",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "RDS.21",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "RDS.22",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "RDS.23",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "RDS.24",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "RDS.25",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "RDS.26",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "RDS.27",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "RDS.28",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "RDS.29",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "RDS.3",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "RDS.30",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "RDS.31",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "RDS.32",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "RDS.33",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "RDS.34",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "RDS.35",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "RDS.36",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "RDS.37",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "RDS.38",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "RDS.39",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "RDS.4",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "RDS.40",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "RDS.41",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "RDS.42",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "RDS.43",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "RDS.44",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "RDS.45",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "RDS.46",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "RDS.47",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "RDS.48",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "RDS.5",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "RDS.6",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "RDS.7",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "RDS.8",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "RDS.9",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "Redshift.1",
+        "severity": "CRITICAL"
+    },
+    {
+        "control_id": "Redshift.10",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "Redshift.11",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "Redshift.12",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "Redshift.13",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "Redshift.14",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "Redshift.15",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "Redshift.16",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "Redshift.17",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "Redshift.18",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "Redshift.2",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "Redshift.3",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "Redshift.4",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "Redshift.6",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "Redshift.7",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "Redshift.8",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "Redshift.9",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "RedshiftServerless.1",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "RedshiftServerless.2",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "RedshiftServerless.3",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "RedshiftServerless.4",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "RedshiftServerless.5",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "RedshiftServerless.6",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "Route53.1",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "Route53.2",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "S3.1",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "S3.10",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "S3.11",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "S3.12",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "S3.13",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "S3.14",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "S3.15",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "S3.17",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "S3.19",
+        "severity": "CRITICAL"
+    },
+    {
+        "control_id": "S3.2",
+        "severity": "CRITICAL"
+    },
+    {
+        "control_id": "S3.20",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "S3.22",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "S3.23",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "S3.24",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "S3.25",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "S3.3",
+        "severity": "CRITICAL"
+    },
+    {
+        "control_id": "S3.5",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "S3.6",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "S3.7",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "S3.8",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "S3.9",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "SES.1",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "SES.2",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "SES.3",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "SNS.1",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "SNS.3",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "SNS.4",
+        "severity": "CRITICAL"
+    },
+    {
+        "control_id": "SQS.1",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "SQS.2",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "SQS.3",
+        "severity": "CRITICAL"
+    },
+    {
+        "control_id": "SSM.1",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "SSM.2",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "SSM.3",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "SSM.4",
+        "severity": "CRITICAL"
+    },
+    {
+        "control_id": "SSM.5",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "SSM.6",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "SSM.7",
+        "severity": "CRITICAL"
+    },
+    {
+        "control_id": "SageMaker.1",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "SageMaker.2",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "SageMaker.3",
+        "severity": "HIGH"
+    },
+    {
+        "control_id": "SageMaker.4",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "SageMaker.5",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "SageMaker.6",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "SageMaker.7",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "SageMaker.8",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "SecretsManager.1",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "SecretsManager.2",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "SecretsManager.3",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "SecretsManager.4",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "SecretsManager.5",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "ServiceCatalog.1",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "StepFunctions.1",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "StepFunctions.2",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "Transfer.1",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "Transfer.2",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "Transfer.3",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "Transfer.4",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "Transfer.5",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "Transfer.6",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "Transfer.7",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "WAF.1",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "WAF.10",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "WAF.11",
+        "severity": "LOW"
+    },
+    {
+        "control_id": "WAF.12",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "WAF.2",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "WAF.3",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "WAF.4",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "WAF.6",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "WAF.7",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "WAF.8",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "WorkSpaces.1",
+        "severity": "MEDIUM"
+    },
+    {
+        "control_id": "WorkSpaces.2",
+        "severity": "MEDIUM"
+    }
+]
