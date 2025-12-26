@@ -6,23 +6,51 @@ AWS Security Hub compliance data processing pipeline using Databricks and S3.
 
 This project transforms AWS Security Hub findings into compliance metrics and exports them to S3 for consumption by external systems (Aurora MySQL, dashboards, etc.).
 
+## 📁 Repository Structure
+
+```
+databricks-securityhub-pipeline/
+├── README.md                    # This file
+├── .gitignore                   # Git exclusions
+│
+├── notebooks/                   # Databricks notebooks
+│   ├── bronze_to_s3.ipynb      # Main pipeline (parallel batch processing)
+│   ├── test_s3_connection.ipynb # S3 connectivity validation
+│   ├── create_securityhub_controls_reference.ipynb # Reference table generator
+│   └── bronze_to_gold_v2.ipynb # Alternative pipeline
+│
+├── docs/                        # Documentation
+│   ├── BRONZE_TO_S3.md         # Pipeline documentation (Japanese)
+│   └── GOLD_STORAGE_OPTIONS.md # Storage strategy analysis
+│
+├── data/                        # Reference data
+│   └── securityhub_controls.json # Control ID → severity mappings
+│
+├── scripts/                     # Utility scripts (future)
+│
+└── old/                         # Legacy code and documentation
+    ├── bronze_to_gold.ipynb
+    ├── bronze_to_silver.ipynb
+    └── *.md
+```
+
 ## Pipeline Components
 
-### 1. Bronze to S3 Export (`bronze_to_s3.ipynb`)
+### 1. Bronze to S3 Export (`notebooks/bronze_to_s3.ipynb`)
 - **Purpose**: Transform raw Security Hub findings → compliance summaries → S3 CSV exports
 - **Input**: Databricks Delta tables (bronze layer)
 - **Output**: S3 CSV files (gzip compressed)
 - **Frequency**: Daily batch job
 - **Architecture**: Parallel batch processing with `.repartition("company_id")`
 
-### 2. S3 Connection Test (`test_s3_connection.ipynb`)
+### 2. S3 Connection Test (`notebooks/test_s3_connection.ipynb`)
 - **Purpose**: Validate S3 connectivity and write permissions
 - **Tests**: Read/write access, compression, partitioning, parallel writes
 - **Usage**: Run before deploying production job
 
-### 3. Security Hub Controls Reference (`create_securityhub_controls_reference.ipynb`)
+### 3. Security Hub Controls Reference (`notebooks/create_securityhub_controls_reference.ipynb`)
 - **Purpose**: Generate reference table mapping control IDs to correct severity levels
-- **Output**: `securityhub_controls.json`
+- **Output**: `data/securityhub_controls.json`
 
 ## Key Features
 
@@ -103,29 +131,27 @@ This project transforms AWS Security Hub findings into compliance metrics and ex
    ```
 
 ### Testing
-1. Run `test_s3_connection.ipynb` to validate S3 connectivity
+1. Run `notebooks/test_s3_connection.ipynb` to validate S3 connectivity
 2. Verify all 5 tests pass before production deployment
 
 ## File Structure
 
-```
-databricks/
-├── bronze_to_s3.ipynb                    # Main pipeline notebook
-├── test_s3_connection.ipynb              # S3 connection tests
-├── create_securityhub_controls_reference.ipynb  # Reference table generator
-├── securityhub_controls.json             # Control ID → severity mappings
-├── BRONZE_TO_S3.md                       # Detailed documentation (Japanese)
-├── GOLD_STORAGE_OPTIONS.md               # Storage strategy analysis
-├── S3_ACCESS_FROM_DATABRICKS.md          # S3 access configuration
-├── S3_WRITE_IAM_USER_SETUP.md           # IAM setup guide
-└── old/                                  # Legacy notebooks
-```
+### Notebooks
+- **Main pipeline**: `notebooks/bronze_to_s3.ipynb`
+- **Testing**: `notebooks/test_s3_connection.ipynb`
+- **Reference data**: `notebooks/create_securityhub_controls_reference.ipynb`
+
+### Documentation
+- **Pipeline details**: `docs/BRONZE_TO_S3.md` (Japanese)
+- **Storage analysis**: `docs/GOLD_STORAGE_OPTIONS.md`
+
+### Data
+- **Reference table**: `data/securityhub_controls.json`
 
 ## Documentation
 
-- **BRONZE_TO_S3.md**: Comprehensive pipeline documentation (Japanese)
-- **GOLD_STORAGE_OPTIONS.md**: Analysis of storage options (S3 vs Delta)
-- **S3_ACCESS_*.md**: S3 access configuration guides
+- **[docs/BRONZE_TO_S3.md](docs/BRONZE_TO_S3.md)**: Comprehensive pipeline documentation (Japanese)
+- **[docs/GOLD_STORAGE_OPTIONS.md](docs/GOLD_STORAGE_OPTIONS.md)**: Analysis of storage options (S3 vs Delta)
 
 ## Output Schema
 
